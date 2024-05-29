@@ -1,0 +1,401 @@
+.hehe{
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+.navbar {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link, .nav-item {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 6px;
+    color: #666;
+}
+
+.nav-link.active, .nav-item:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.logo {
+    text-align:center;
+    flex-grow: 1;
+}
+
+.logo-text {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-subtext {
+    font-size: 16px;
+    color: #777;
+}
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 20px;
+    flex-grow: 1;
+}
+
+#search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon-container {
+    height:0%;
+    display: flex;
+    align-items: center;
+}
+
+#icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icon-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.hero {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color:#ffffff;
+}
+
+.hero-text {
+    position: relative;
+    bottom: -150px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.hero-images {
+    border-radius: 10px;
+    background-color: #f9f6ed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hero-images img {
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.collections {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.collection {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+}
+
+.collection img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.collection h2 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.collection button {
+    background-color: #f9f6ed;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.collection button:hover {
+    background-color: #e0e0e0;
+}
+
+
+.banner {
+    height:450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f6ed;
+    padding: 20px;
+}
+
+.products img {
+    transform: scale(1.8);
+    max-width: 100px;
+    margin: 0 10px;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.offer p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.offer button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.offer button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+    margin: 0 0 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media li {
+    list-style: none;
+}
+
+.social-media li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 0;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.slider {
+    height: 300px;
+    position: relative;
+    width: 500%;
+    max-width: 1900px;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.aaaa{
+    
+}

@@ -1,0 +1,379 @@
+.hehe{
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link, .nav-item {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 6px;
+    color: #666;
+}
+
+.nav-link.active, .nav-item:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.logo {
+    text-align:center;
+    flex-grow: 1;
+}
+
+.logo-text {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-subtext {
+    font-size: 16px;
+    color: #777;
+}
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 20px;
+    flex-grow: 1;
+}
+
+#search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon-container {
+    height:0%;
+    display: flex;
+    align-items: center;
+}
+
+#icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icon-button img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+    margin: 0 0 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media li {
+    list-style: none;
+}
+
+.social-media li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 0;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.review {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.review img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.review .name {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.review .stars {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.review .review-text {
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color:#f9f6ed;
+    width: 100%;
+}
+
+.benefits {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f6ed;
+    border-right: 1px solid #e0e0e0;
+}
+
+.benefits h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits ul li {
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+    padding-left: 20px;
+    position: relative;
+}
+
+.benefits ul li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+.signup-form {
+    height: fit-content;
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f6ed;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input::placeholder {
+    text-align: center;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.signup-form .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-form .terms input {
+    margin-right: 10px;
+}
+
+.signup-form .terms a {
+    color: #333;
+    text-decoration: none;
+}
+
+.signup-form button[type="submit"] {
+    position: relative;
+    right: -330px;
+    width: 200px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form .or-divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
+
+.signup-form .google-signup,
+.signup-form .facebook-signup {
+    position: relative;
+    right: -230px;
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.signup-form .google-signup {
+    color: #000000;
+}
+
+.signup-form .facebook-signup {
+    color: #000000;
+}
+
