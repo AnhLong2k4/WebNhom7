@@ -266,6 +266,7 @@ h1 {
 }
 
 .container button{
+    cursor: pointer;
     background-color: #f8f6ee;
     border-radius: 1px 10px;
     text-align: center;
